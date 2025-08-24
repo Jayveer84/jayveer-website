@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color:  hsl(25, 100%, 50%) ;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: lab(34.19% 38.82 -73.86);
+            font-family: 'Bangers', cursive;
+        }
+        h2 {
+            color: hwb(135 24% 9%);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 28px;
+            margin: 5px 0;
+        }
+        img {
+            border-radius: 30px;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: hsl(204, 70%, 53%);
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        input {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <img src="photo.png" alt="my profile" width="200" height="300">
+    <h1>HI, MY NAME IS JAYVEER GOND</h1>
+    <h2>FUN FACTS ABOUT ME</h2>
+    <ul>
+        <li><b>AGE:</b> 19</li>
+        <li><b>Occupation:</b> Student</li>
+        <li><b>Country:</b> Indian</li>
+    </ul>
+
+    <p>Please connect with me if you like:</p>
+
+    <button onclick="window.open('https://wa.me/+919721115721', '_blank')">WhatsApp</button>
+    <button onclick="window.open('https://www.instagram.com/its_jayveer_07/', '_blank')">Instagram</button>
+    <br><br>
+    <input type="text" placeholder="Enter your email">
+    <button>Join Here</button>
+</body>
+</html>
+                                                                                                                                                 
